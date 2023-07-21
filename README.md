@@ -1,2 +1,2 @@
 # iOS-dev-Swift
-Repo to track my iOS development learning progress including iOS dev projects. 
+Repo to take notes and document my iOS development learning. 
