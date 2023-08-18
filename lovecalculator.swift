@@ -20,3 +20,29 @@ func loveCalculator(){
     
 
 loveCalculator()
+
+
+// Love Calculator using Switch statement
+
+func loveCalculator(){
+    let loveScore = Int.random(in: 0...100)
+    
+    
+    switch loveScore {
+    case 81...100:
+        print("You love each other like Kanye loves Kany")
+        
+    case 41..<81:
+        print("you love together like coke and mentos")
+        
+    case ...40:
+        print("You will be forever alone")
+        
+        
+    default:
+        print("ERROR")
+    }
+    
+}
+
+loveCalculator()
